@@ -12,14 +12,14 @@ patches:
     patch: |-
       - op: replace
         path: /spec/source/targetRevision
-        value: HEAD
+        value: main
   - target:
       kind: Application
       labelSelector: repo=acm-hub-bootstrap
     patch: |-
       - op: replace
         path: /spec/source/targetRevision
-        value: HEAD
+        value: main
   - target:
       kind: Application
       labelSelector: repo=gitops-catalog
